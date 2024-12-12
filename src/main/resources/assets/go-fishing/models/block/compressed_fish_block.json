@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "go-fishing:block/compressed_fish_block"
+  }
+}

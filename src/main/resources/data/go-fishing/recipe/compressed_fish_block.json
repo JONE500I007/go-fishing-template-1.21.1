@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#go-fishing:mod_fish_items",
+    "#go-fishing:mod_fish_items",
+    "#go-fishing:mod_fish_items",
+    "#go-fishing:mod_fish_items",
+    "#go-fishing:mod_fish_items",
+    "#go-fishing:mod_fish_items",
+    "#go-fishing:mod_fish_items",
+    "#go-fishing:mod_fish_items",
+    "#go-fishing:mod_fish_items"
+  ],
+  "result": {
+    "count": 1,
+    "id": "go-fishing:compressed_fish_block"
+  }
+}

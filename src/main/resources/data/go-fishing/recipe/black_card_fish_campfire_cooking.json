@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 70,
+  "experience": 0.35,
+  "ingredient": "go-fishing:black_card_fish",
+  "result": {
+    "id": "go-fishing:burned_black_card_fish"
+  }
+}

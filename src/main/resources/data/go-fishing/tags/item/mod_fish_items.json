@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "go-fishing:raw_blue_fish",
+    "go-fishing:raw_greedily_fish",
+    "minecraft:salmon",
+    "minecraft:cod",
+    "minecraft:pufferfish",
+    "minecraft:tropical_fish"
+  ]
+}

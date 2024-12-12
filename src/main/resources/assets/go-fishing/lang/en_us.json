@@ -1,0 +1,26 @@
+{
+  "item.go-fishing.fishing_coin": "Fish Coin",
+  "item.go-fishing.raw_blue_fish": "Raw Blue Fish",
+  "item.go-fishing.cooked_blue_fish": "Cooked Blue Fish",
+  "item.go-fishing.raw_greedily_fish": "Raw Greedily Fish",
+  "item.go-fishing.black_card_fish": "Black Card Fish",
+  "item.go-fishing.burned_black_card_fish": "Burned Black Card Fish",
+  "item.go-fishing.red_card_fish": "Red Card Fish",
+  "item.go-fishing.burned_red_card_fish": "Burned Red Card Fishh",
+  "item.go-fishing.better_fishing_rod": "Better Fishing Rod",
+  "item.go-fishing.bamboo_fishing_rod": "Bamboo Fishing Rod",
+
+  "item.go-fishing.compressed_fish_block": "Compressed Fish Block",
+  "block.go-fishing.compressed_fish_block": "Compressed Fish Block",
+
+  "itemgroup.go-fishing.raw_greedily_fish_item": "Item Mod Go Fishing",
+
+  "entity.minecraft.villager.fishing_master": "Fishing Master",
+
+
+  "commands.give.failed.toomanyitems.stacks"      : "Can't give more than %s stacks of %s"    ,
+  "commands.give.success.multiple.stack"          : "Gave a stack of %s to %s players"        ,
+  "commands.give.success.multiple.stacks"         : "Gave %s stacks of %s to %s players"      ,
+  "commands.give.success.single.stack"            : "Gave a stack of %s to %s"                ,
+  "commands.give.success.single.stacks"           : "Gave %s stacks of %s to %s"
+}

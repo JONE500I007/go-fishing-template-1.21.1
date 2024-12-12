@@ -1,0 +1,29 @@
+{
+	"required": true,
+	"package": "net.go.fishing.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+
+		"FishingBobberAccessor",
+		"FishingBobberEntityMixin",
+		"FishingBobberRendererMixin",
+
+		"override_cap.InventoryMixin",
+		"override_cap.DataComponentTypeMixin",
+		"override_cap.ItemCommandMixin",
+		"override_cap.ItemStackMixin",
+
+		"client.DrawContextMixin",
+
+		"AdjustStackSizeOnPickupMixin",
+		"ItemStackMixin",
+		"PlayerInventoryMixin",
+		"ScreenHandlerMixin",
+
+		"VillagerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

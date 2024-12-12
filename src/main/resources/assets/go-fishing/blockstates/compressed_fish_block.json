@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "go-fishing:block/compressed_fish_block"
+    }
+  }
+}

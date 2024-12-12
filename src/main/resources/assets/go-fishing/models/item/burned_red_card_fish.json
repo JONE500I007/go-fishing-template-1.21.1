@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "go-fishing:item/burned_red_card_fish"
+  }
+}
