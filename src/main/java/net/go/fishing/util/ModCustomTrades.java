@@ -43,7 +43,7 @@ public class ModCustomTrades {
                     10, 2, 0.2f
             ));
             factories.add((entity, random) -> new TradeOffer(
-                    new TradedItem(ModItems.FISHING_COIN, 9),
+                    new TradedItem(ModItems.FISHING_COIN, 1500),
                     new ItemStack(Items.EMERALD, 2),
                     16, 20, 0.05f
             ));
