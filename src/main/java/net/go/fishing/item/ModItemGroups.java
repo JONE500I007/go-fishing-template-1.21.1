@@ -21,6 +21,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(FISHING_COIN);
                         entries.add(PEARL);
+                        entries.add(PEARL_2);
                         entries.add(RAW_BLUE_FISH);
                         entries.add(COOKED_BLUE_FISH);
                         entries.add(RAW_GREEDILY_FISH);

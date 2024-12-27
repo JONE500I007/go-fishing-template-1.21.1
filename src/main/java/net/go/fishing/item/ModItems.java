@@ -3,6 +3,10 @@ package net.go.fishing.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.go.fishing.GoFishing;
 import net.go.fishing.item.custom.TheFishingRod;
+import net.minecraft.component.type.AttributeModifierSlot;
+import net.minecraft.component.type.AttributeModifiersComponent;
+import net.minecraft.entity.attribute.EntityAttributeModifier;
+import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.FishingRodItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -33,6 +37,14 @@ public class ModItems {
 
     public static final Item PEARL = registerItem("pearl",
             new Item(new Item.Settings()));
+    public static final Item PEARL_2 = registerItem("pearl_2",
+            new Item(new Item.Settings()));
+
+    public static final Item PEARL_3 = registerItem("pearl_3",
+            new Item(new Item.Settings().attributeModifiers(AttributeModifiersComponent.builder()
+                    .add(EntityAttributes.GENERIC_LUCK,
+                            new EntityAttributeModifier(Identifier.of(GoFishing.MOD_ID), 10,
+                                    EntityAttributeModifier.Operation.ADD_VALUE), AttributeModifierSlot.MAINHAND).build())));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GoFishing.MOD_ID, name), item);

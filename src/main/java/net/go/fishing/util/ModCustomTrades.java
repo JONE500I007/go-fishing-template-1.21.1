@@ -80,5 +80,28 @@ public class ModCustomTrades {
                     10, 15, 0.1f
             ));
         });
+
+        TradeOfferHelper.registerWanderingTraderOffers( 1, factories -> {
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(ModItems.FISHING_COIN, 200),
+                    new ItemStack(ModItems.BAMBOO_FISHING_ROD, 1),
+                    10, 2, 0.2f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(ModItems.RED_CARD_FISH, 1),
+                    new ItemStack(ModItems.FISHING_COIN, 120),
+                    16, 20, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(ModItems.BLACK_CARD_FISH, 1),
+                    new ItemStack(ModItems.FISHING_COIN, 120),
+                    16, 20, 0.05f
+            ));
+            factories.add((entity, random) -> new TradeOffer(
+                    new TradedItem(ModItems.PEARL_2, 1),
+                    new ItemStack(ModItems.FISHING_COIN, 50),
+                    10, 15, 0.1f
+            ));
+        });
     }
 }

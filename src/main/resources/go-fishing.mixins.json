@@ -20,8 +20,10 @@
 		"ItemStackMixin",
 		"PlayerInventoryMixin",
 		"ScreenHandlerMixin",
+		"SlotMixin",
 
-		"VillagerEntityMixin"
+		"VillagerEntityMixin",
+		"WanderingTraderMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

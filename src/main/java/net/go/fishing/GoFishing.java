@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 public class GoFishing implements ModInitializer {
 	public static final String MOD_ID = "go-fishing";
 
-	public static final int MAX_STACK_SIZE_CAP = 2000;
+	public static final int MAX_STACK_SIZE_CAP = Integer.MAX_VALUE;
 	public static final boolean SMALLER_STACK_FULL_SHULKERS = true;
 
 	public static final boolean DEBUGGING = false;
